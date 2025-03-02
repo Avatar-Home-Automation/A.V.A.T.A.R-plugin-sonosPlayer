@@ -2,7 +2,7 @@
   <tr>
     <td style="border: none;"><img src="sonosPlayer/assets/images/sonosPlayer.png" alt="sonosPlayer Logo" width="120"></td>
     <td style="border: none;">
-      <h1 style="margin: 0;color: brown;">Sonos</h1>
+      <h1 style="margin: 0;color: brown;">Sonos Player</h1>
       <h3 style="margin: 0;">Control Your Music with Your Voice</h3>
     </td>
   </tr>
