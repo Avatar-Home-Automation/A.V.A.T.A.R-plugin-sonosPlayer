@@ -1,0 +1,75 @@
+{
+	"players": {
+		"scanPlayers": "Recherche les players Sonos...",
+		"foundPlayer": "Sonos Player $$ ($$) ajouté",
+		"foundPlaybar": "Sonos Playbar $$ ajouté",
+		"removePlayer": "Remplace le Player $$ par la Playbar $$",
+		"clientNotFound": "SonosPlayer: Ajoutez un client réel ou virtuel '$$' pour que le Player du même nom puisse être utilisé par le plugin." 
+	},
+	"intercom": {
+		"generalIntercom": "Intercom général",
+		"intercomSent": "Intercom de $$ envoyé à $$"
+	},
+	"sound": {
+		"TvPlaybar": "La télé est déjà sur la play bar",
+		"noTvRoom": "$$ n'est pas la pièce où est la télé",
+		"maxVolume": "le volume est au maximum",
+		"minVolume": "le volume est au minimum",
+		"volumeDone": "c'est fait",
+		"noVolume": "Je n'ai pas pu récupérer le niveau de volume"
+	},
+	"music": {
+		"askme": "Que veux tu écouter ?|Tu veux quoi ?",
+		"noLanguage": "Ajoutez d'abord les clés search dans les propriétés du plugin pour le langage courant.",
+		"noChoice": "Désolé, je ne peux choisir que pour la musique.",
+		"done": "Terminé",
+		"notFound": "je n'ai pas trouvé ce que tu demandes.",
+		"found": "Je mets $$",
+		"noRandom": "Je suis désolé, je n'ai pas trouvé de musique.",
+		"listEmpty": "La liste de lecture est vide.",
+		"play": "d'accord|c'est parti|je lance la musique",
+		"stop": "d'accord|je stoppe la musique",
+		"first": "C'est la première musique.",
+		"last": "C'est la dernière musique.",
+		"noChange": "Je ne peux pas changer la musique sur la télévision ou la radio.",
+		"noPlaying": "Il n'y a pas de musique en cours de lecture.",
+		"noMapping": "Je suis désolé, cette commande n'est possible que si je ne comprend pas",
+		"doMapping": "D'accord, tu pourras recommencer après"
+	},
+	"error": {
+		"noPlayer": "$$: Le Player $$ n'existe pas.",
+		"noClient": "Sonos speak: Paramètre client manquant, vérifiez si ce client existe comme client réel ou virtuel.",
+		"noPlayClient": "Sonos play: Le paramètre client est manquant, vérifiez si ce client existe comme client réel ou virtuel.",
+		"noTTS": "Sonos speak: Paramètre tts manquant",
+		"noplayFile": "Sonos play: Paramètre musique manquant",
+		"searchForPlayer": "SonosPlayer: La recherche des players Sonos a échouée: $$",
+		"createTTS": "SonosPlayer: Erreur dans la création du tts",
+		"closure": "SonosPlayer: Erreur TransportClosure: $$",
+		"defaultDuration": "Définition d'une durée par défaut: $$",
+		"noPlay": "SonosPlayer: Le streaming sur le Sonos Player a échoué: $$",
+		"noWav": "L'écriture du fichier TTS en Wav a échouée: $$",
+		"reformatString": "SonosPlayer: Erreur de reformatage de $$",
+		"noPartage": "sonosPlayer: La propriété 'sharedFolder' ou 'partage' est manquante dans les propriétés. Ajoutez-les avant de continuer.",
+		"duration": "SonosPlayer: Impossible de récupérer la durée du fichier son: $$",
+		"music": "désolé j'ai rencontré une erreur. Plus de détail dans la console.",
+		"url": "L'url de la musique est vide.",
+		"noTTSLanguage": "sonosPlayer: La propriété 'ttsLanguage' est manquante dans les propriétés. Ajoutez-la avant de continuer.",
+		"noLocalLanguage": "sonosPlayer: Ajoutez une section pour le langage courant dans la propriété 'search' avant de continuer."
+	}, 
+	"mapping": {
+		"yousayTitle": "Ce que vous avez dit:",
+		"mappingTitle": "Ce qu'il faut enregistrer:",
+		"mappingLabel": "Correspondances existantes:",
+		"auto": "Sélectionnez...",
+		"inputMappingLabel": "Nouveau mapping:",
+		"saveMappingLabel": "Enregistrer",
+		"labelQuit": "Quitter",
+		"noMapping": "Choisissez une correspondance existante ou créez en une nouvelle avant de sauvegarder.",
+		"multiMapping": "Vous ne pouvez pas sélectionner et créer une correspondance en même temps.",
+		"existMapping": "'$$' existe déjà dans les correspondances.",
+		"newMapping": "'$$' ajouté à une nouvelle correspondance '$$'.",
+		"addedToMapping": "'$$' ajouté à la correspondance '$$'.",
+		"error": "Une erreur est survenue pendant l'ajout de la correspondance",
+		"mappingValueExists": "'$$' existe déjà comme correspondance dans '$$'"
+	}
+}

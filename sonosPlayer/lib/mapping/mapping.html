@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' ; style-src 'self' 'unsafe-inline'">
+        <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+        <script src="../../../../../node_modules/xel/xel.js" type="module"></script>
+        <meta name="xel-theme" content="../../../../../node_modules/xel/themes/cupertino-dark.css">
+        <meta name="xel-accent-color" content="purple">
+        <meta name="xel-icons" content="../../../../../node_modules/xel/icons/fluent.svg">
+        <link href="./mapping.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <x-card id="xcard-mapping" class="xcard-mapping" style="margin-bottom: 0px;">
+            <strong class="label-input" id="youSay-title"></strong>
+            <x-input class="input-mapping" id="youSay" size="small" style="margin-bottom: 10px; margin-left: 10px;">
+                <x-label id="youSay-label"></x-label>
+            </x-input>
+        </x-card>
+        
+        <x-card id="xcard-mapping" class="xcard-mapping">
+            <strong class="label-input" id="mapping-title"></strong>
+            <div class="menu-div">
+                <x-label class="label-select" id="mapping-label" style="margin-left: 10px; margin-top: 5px; white-space: nowrap;"></x-label>
+                <x-select id="select-mapping" size="small" class="select-mapping" >
+                    <x-menu id="menu-mapping">
+                        <x-menuitem id="L-auto" value="auto"><x-label id="L-auto-label"></x-label></x-menuitem>
+                        <hr>
+                    </x-menu>
+                </x-select>
+            </div>
+            <div class="menu-div-mapping">
+                <x-label id="input-mapping-label" style="margin-left: 10px; margin-top: 0px; white-space: nowrap;"></x-label>
+                <x-input class="input-mapping" id="new-mapping" size="small">
+                    <x-label id="new-input-mapping"></x-label>
+                </x-input>
+            </div>
+            
+        </x-card>
+
+        <x-box id="buttons-manage">
+            <x-button id="save-mapping" class="cursor-pointer" size="small">
+                <x-label id="label-save-mapping"></x-label>
+            </x-button>
+            <x-button style="margin-left: 15px;" id="quit" class="cursor-pointer" size="small">
+                <x-label id="label-quit"></x-label>
+            </x-button>
+        </x-box>
+
+        <x-notification id="notification"></x-notification>
+        <script src="./mapping-renderer.js"></script>
+    </body>
+</html>

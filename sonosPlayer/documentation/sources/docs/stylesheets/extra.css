@@ -1,0 +1,76 @@
+[data-md-color-scheme="youtube"] {
+    --md-primary-fg-color:        #EE0F0F;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 210; 
+}
+
+p, li {
+    font-size: 14px;
+}
+
+.md-typeset h1, .md-typeset h3 {
+ font-weight: 800;
+}
+
+.md-typeset h2 {
+    font-weight: 500;
+   }
+
+.md-grid {
+    margin-left: 10px;
+    margin-right: 0px; 
+    max-width: 100%; 
+}
+
+.md-typeset .md-button {
+    padding: .1em 1em;
+}
+
+/*.md-sidebar {
+   width: max-content;
+   max-width: 200px;
+}*/
+
+@media only screen and (min-width: 76.25em) {
+    .md-tabs--active ~ .md-main .md-nav[data-md-level="1"] {
+      display: block;
+    }
+}
+
+.md-typeset table:not([class]) {
+border-radius: 8px;
+}
+
+table {
+    border-radius: 10px;
+    box-shadow: 10px 6px 10px 0px #131313;
+}
+
+th {
+    border-bottom: 1px solid #a508ed;
+}
+
+.js .md-typeset .tabbed-labels:before {
+    background: #a508ed;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+.md-typeset .admonition.warning {
+    border-left-width: 10px;
+}
+
+.md-typeset .admonition.note {
+    border-left-width: 10px;
+}
+
+.md-typeset .admonition.tip {
+    border-left-width: 10px;
+}

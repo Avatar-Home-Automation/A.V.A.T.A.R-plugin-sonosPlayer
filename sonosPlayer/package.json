@@ -1,0 +1,21 @@
+{
+  "name": "sonosPlayer",
+  "version": "3.0.0",
+  "type": "module",
+  "description": "Plugin Sonos for A.V.A.T.A.R",
+  "repository": "https://github.com/Avatar-Home-Automation/A.V.A.T.A.R-plugin-sonosPlayer",
+  "keywords": [
+    "sonosPlayer",
+    "Sonos"
+  ],
+  "author": "Avatar-Home-Automation",
+  "license": "mit",
+  "dependencies": {
+    "@jollie/soundex-fr": "^1.0.8",
+    "axios": "^1.6.8",
+    "music-metadata": "^11.0.0",
+    "soundex-code": "^2.0.1",
+    "talisman": "^1.1.4",
+    "xml2js": "^0.6.2"
+  }
+}

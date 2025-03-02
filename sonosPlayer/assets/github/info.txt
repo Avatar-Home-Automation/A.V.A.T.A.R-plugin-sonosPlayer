@@ -1,0 +1,13 @@
+Control Your Music with Your Voice !
+
+SonosPlayer gives you the power to control your Sonos system and all your Sonos music with your voice.
+It also allows you to redirect A.V.A.T.A.R's voice messages and all sounds played by the plugins to the Sonos clients.
+
+Multi-room:
+The sonosPlayer plugin is fully multi-room; it automatically links A.V.A.T.A.R clients with the Sonos rooms.
+
+Multi-language:
+The `sonosPlayer` plugin relies solely on the system's available languages.
+
+Ready to get started? 
+Download the plugin and follow the installation guide to integrate Sonos into A.V.A.T.A.R and unlock endless possibilities!

@@ -1,0 +1,75 @@
+{
+	"players": {
+		"scanPlayers": "Search for Sonos players...",
+		"foundPlayer": "Sonos Player $$ added",
+		"foundPlaybar": "Sonos Playbar $$ added",
+		"removePlayer": "Remplace the Player $$ by the Playbar $$",
+		"clientNotFound": "SonosPlayer: Add a real or virtual '$$' client so that the Player with the same name can be used by the plugin."
+	},
+	"intercom": {
+		"generalIntercom": "General Intercom",
+		"intercomSent": "Intercom from $$ sent to $$"
+	},
+	"sound": {
+		"TvPlaybar": "The TV is already on the play bar",
+		"noTvRoom": "$$ is not the room where the TV is",
+		"maxVolume": "The volume is at its maximum",
+		"minVolume": "The volume is at its minimum",
+		"volumeDone": "It's done",
+		"noVolume": "I couldn't retrieve the volume level"
+	},
+	"music": {
+		"askme": "What would you like to listen to? | What would you like to hear?",
+		"noLanguage": "Please add the search keys to the plugin's properties for the current language first.",
+		"noChoice": "Sorry, I can only choose for music.",
+		"done": "Done",
+		"notFound": "I couldn't find what you're asking for.",
+		"found": "I'm playing $$",
+		"noRandom": "I'm sorry, I couldn't find any music.",
+		"listEmpty": "The playlist is empty.",
+		"play": "Okay | Let's go | I'm starting the music",
+		"stop": "Okay | I'm stopping the music",
+		"first": "This is the first track.",
+		"last": "This is the last track.",
+		"noChange": "I can't change the music on the TV or radio.",
+		"noPlaying": "There is no music currently playing.",
+		"noMapping": "I'm sorry, this command is only possible if I don't understand",
+  		"doMapping": "Alright, you can try again later"
+	},
+	"error": {
+		"noPlayer": "$$: The Player $$ doesn't exist",
+		"noClient": "Sonos speak: Missing client parameter",
+		"noPlayClient": "Sonos play: The client parameter is missing. Check whether this client exists as a real or virtual client.",
+		"noTTS": "Sonos speak: Missing tts parameter",
+		"noplayFile": "Sonos play: Missing music parameter",
+		"searchForPlayer": "SonosPlayer: Sonos player search failed: $$",
+		"createTTS": "SonosPlayer: Error in tts creation",
+		"closure": "SonosPlayer: TransportClosure error: $$",
+		"defaultDuration": "Define default duration: $$",
+		"noPlay": "SonosPlayer: Streaming on the Sonos Player has failed: $$",
+		"noWav": "Writing TTS file to Wav failed: $$",
+		"reformatString": "SonosPlayer: $$ reformatting error",
+		"noPartage": "sonosPlayer: The 'sharedFolder' or 'partage' property is missing in the configuration file. Add them before continuing.",
+		"duration": "SonosPlayer: Unable to retrieve the audio file duration: $$",
+		"music": "Sorry, I encountered an error. More details in the console.",
+    	"url": "The music URL is empty.",
+		"noTTSLanguage": "sonosPlayer: The 'ttsLanguage' property is missing in the configuration file. Add it before continuing.",
+		"noLocalLanguage": "sonosPlayer: Add a section for the current language in the 'search' property before continuing."
+	}, 
+	"mapping": {
+		"yousayTitle": "What you said:",
+		"mappingTitle": "What to record:",
+		"mappingLabel": "Existing mappings:",
+		"auto": "Select...",
+		"inputMappingLabel": "New mapping:",
+		"saveMappingLabel": "Save",
+		"labelQuit": "Quit",
+		"noMapping": "Choose an existing mapping or create a new one before saving.",
+		"multiMapping": "You cannot select and create a mapping at the same time.",
+		"existMapping": "'$$' already exists in the mappings.",
+		"newMapping": "'$$' added to a new mapping '$$'.",
+		"addedToMapping": "'$$' added to the mapping '$$'.",
+		"error": "An error occurred while adding the mapping.",
+		"mappingValueExists": "'$$' already exists as a mapping in '$$'"
+	}
+}
