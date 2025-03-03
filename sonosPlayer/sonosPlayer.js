@@ -190,6 +190,13 @@ class DeviceManager {
 
 
 /**
+ * An instance of DeviceManager to manage Sonos devices.
+ * @type {DeviceManager}
+ */
+export const manager = new DeviceManager();
+
+
+/**
  * Unmutes the specified client if certain conditions are met.
  * 
  * @param {string} client - The client to unmute.
